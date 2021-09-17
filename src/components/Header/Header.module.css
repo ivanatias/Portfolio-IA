@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  padding: 0 8px;
+  background-color: var(--primary-color);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  margin-right: auto;
+}
+
+.logo {
+  height: 80px;
+  min-height: 75px;
+  width: 127px;
+  min-width: 100px;
+}
