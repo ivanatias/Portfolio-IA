@@ -38,13 +38,12 @@
     position: static;
     width: fit-content;
     height: fit-content;
-    margin-right: 32px;
     background-color: transparent;
   }
 
   .navItem {
     width: fit-content;
-    padding: 0 16px;
+    margin-left: 16px;
     font-size: var(--font-size);
   }
 
