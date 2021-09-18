@@ -7,9 +7,3 @@
 .menuBtn:hover {
   transform: scale(1.3);
 }
-
-@media screen and (min-width: 969px) {
-  .mobileNav {
-    display: none;
-  }
-}

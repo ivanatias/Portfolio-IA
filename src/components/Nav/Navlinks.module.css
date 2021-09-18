@@ -21,12 +21,14 @@
 }
 
 .navLink {
+  display: block;
   color: #fff;
+  width: 100%;
   transition: 0.3s ease-in-out;
 }
 
-.navLink:hover {
-  color: var(--accent-color);
+.navItem:hover {
+  background-color: var(--accent-color);
 }
 
 @media screen and (min-width: 969px) and (max-width: 1400px) {
@@ -41,7 +43,6 @@
   }
 
   .navItem {
-    display: block;
     width: fit-content;
     padding: 0 16px;
     font-size: var(--font-size);
@@ -71,5 +72,8 @@
 
   .navLink:hover::before {
     opacity: 0.9;
+  }
+  .navItem:hover {
+    background-color: transparent;
   }
 }

@@ -28,7 +28,7 @@ const MobileNavigation = () => {
   const closeMobileNav = () => setMenuOpen(false);
 
   return (
-    <nav className={styles.mobileNav}>
+    <nav>
       {menuOpen ? closeMenuBtn : hamburgerBtn}
       {menuOpen ? (
         <Navlinks isMobile={true} closeMenuOnClick={closeMobileNav} />
