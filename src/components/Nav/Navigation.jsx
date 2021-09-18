@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navlinks from "./Navlinks";
 import styles from "./Navigation.module.css";
 
