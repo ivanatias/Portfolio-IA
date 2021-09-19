@@ -3,23 +3,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: var(--primary-light);
+  background: var(--accent-light);
   background: -moz-linear-gradient(
     180deg,
-    rgba(152, 193, 217, 1) 0%,
-    rgba(224, 251, 252, 1) 100%
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
-    rgba(152, 193, 217, 1) 0%,
-    rgba(224, 251, 252, 1) 100%
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
   );
   background: linear-gradient(
     180deg,
-    rgba(152, 193, 217, 1) 0%,
-    rgba(224, 251, 252, 1) 100%
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#98c1d9",endColorstr="#e0fbfc",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9d1c7",endColorstr="#ffffff",GradientType=1);
 }
 
 .about h1 {
@@ -46,6 +46,7 @@
 .aboutImage {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .image {

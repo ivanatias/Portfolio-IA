@@ -1,0 +1,23 @@
+.services {
+  background: var(--accent-light);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(249, 209, 199, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9d1c7",endColorstr="#ffffff",GradientType=1);
+}
+
+.services h1 {
+  text-align: center;
+}

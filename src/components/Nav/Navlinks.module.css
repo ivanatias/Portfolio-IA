@@ -9,7 +9,7 @@
   top: 100%;
   left: 0%;
   list-style: none;
-  background-color: var(--primary-color);
+  background-color: var(--primary-shadow);
 }
 
 .navItem {
