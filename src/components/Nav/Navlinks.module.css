@@ -17,6 +17,7 @@
   width: 100%;
   padding: 10px 0;
   text-align: center;
+  text-transform: uppercase;
   font-size: calc(var(--font-size) * 1.3);
 }
 
