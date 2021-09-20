@@ -4,9 +4,9 @@
   align-items: center;
   position: fixed;
   width: 100vw;
-  height: 80px;
+  height: 64px;
   padding: 0 16px;
-  background-color: var(--primary-shadow);
+  background-color: var(--black-color);
   z-index: 5;
 }
 

@@ -12,7 +12,7 @@
   align-items: center;
   margin-bottom: 10px;
   padding: 10px 8px;
-  border: 1px solid var(--primary-shadow);
+  border: 1px solid var(--primary-xlight);
   border-radius: 10px;
   background-color: #fff;
 }
@@ -24,11 +24,12 @@
   margin: 10px 0;
 }
 
-.cardBody,
-.cardFooter {
+.cardBody p,
+.cardFooter p {
   font-size: calc(var(--font-size) * 0.9);
   margin-bottom: 10px;
   text-align: center;
+  color: #000;
 }
 
 .icon {

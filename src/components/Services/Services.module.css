@@ -1,7 +1,8 @@
 .services {
-  background: var(--primary-xlight);
+  background: var(--primary-shadow);
 }
 
 .services h1 {
   text-align: center;
+  color: var(--accent-color);
 }
